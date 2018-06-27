@@ -15,12 +15,7 @@ class EmailParser
   end
 
   def parse
-    #email_array = EmailParser.new
-    
     data = email_string.split /\s| |, /
-    
-    #@@all << data.join
-    #binding.pry
     data.uniq
   end
 
