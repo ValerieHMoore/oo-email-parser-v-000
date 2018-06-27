@@ -14,10 +14,6 @@ class EmailParser
     @email_string = email_string
   end
 
-  # def self.create
-  #   @@all << self.new
-  # end
-
   def parse
     #email_array = EmailParser.new
     
